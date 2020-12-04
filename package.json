@@ -1,0 +1,40 @@
+{
+    "name": "ts-call-site",
+    "version": "0.1.0",
+    "description": "Analyzes stackframes and source maps to get a function's call site as AST node *at runtime*.",
+	"main": "dist/src/index.js",
+	"typings": "dist/src/index.d.ts",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HoldYourWaffle/ts-call-site.git"
+    },
+    "keywords": [
+        "typescript",
+        "reflection",
+        "caller"
+    ],
+    "author": "HoldYourWaffle",
+    "license": "MIT",
+    "homepage": "https://github.com/HoldYourWaffle/ts-call-site#readme",
+    "bugs": {
+        "url": "https://github.com/HoldYourWaffle/ts-call-site/issues"
+    },
+    "dependencies": {
+        "stack-trace": "0.0.10",
+        "ts-morph": "^9.1.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.16",
+        "@types/stack-trace": "0.0.29",
+        "jest": "^26.6.3",
+        "source-map-support": "^0.5.19",
+        "ts-jest": "^26.4.4",
+        "typescript": "^4.1.2"
+    },
+    "peerDependencies": {
+        "source-map-support": "*"
+    }
+}

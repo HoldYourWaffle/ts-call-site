@@ -1,4 +1,6 @@
 # ts-call-site
+![npm](https://img.shields.io/npm/v/ts-call-site)
+
 Analyzes stackframes and source maps to get a function's call site as AST node *at runtime*.
 This can be used to analyze *how* the function was called, with full type information.
 

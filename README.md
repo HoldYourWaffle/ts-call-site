@@ -1,7 +1,7 @@
 # ts-call-site
 ![npm](https://img.shields.io/npm/v/ts-call-site)
 
-Analyzes stackframes and source maps to get a function's call site as AST node *at runtime*.
+Analyzes stackframes, source maps and source code to get a function's call site as AST node *at runtime*.
 This can be used to analyze *how* the function was called, with full type information.
 
 ## :warning: Enable source maps
@@ -9,7 +9,7 @@ This modules needs source maps to connect JavaScript stackframes to the orignal 
 Please make sure that source map support is enabled before using this module.
 Instructions and more information can be found at the [source-map-support](https://www.npmjs.com/package/source-map-support) package.
 
-<h4><p align="center">:exclamation: THIS MODULE <i>RELIES</i> ON SOURCE MAPS TO WORK :exclamation:</p></h4>
+<h4><p align="center">:exclamation: THIS MODULE <i>RELIES</i> ON SOURCE MAPS AND <i>THE ORIGINAL SOURCE</i> TO WORK :exclamation:</p></h4>
 
 ## Usage
 ```ts

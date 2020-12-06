@@ -11,6 +11,10 @@ Instructions and more information can be found at the [source-map-support](https
 
 <h4><p align="center">:exclamation: THIS MODULE <i>RELIES</i> ON SOURCE MAPS AND <i>THE ORIGINAL SOURCE</i> TO WORK :exclamation:</p></h4>
 
+Because of these constraints the use-cases for this module are limited. This module was originally intended for code-generation purposes, where the original source-code (and sourcemaps) is of course available.
+
+An alternative (compile-time) method that might ease some of these constraints is discussed in [#5](https://github.com/HoldYourWaffle/ts-call-site/issues/5).
+
 ## Usage
 ```ts
 // Enable source maps, see source-map-support's documentation for alternatives
